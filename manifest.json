@@ -1,0 +1,25 @@
+{
+    "name":"南开数院网页补丁",
+    "version":"1.0",
+    "manifest_version":2,
+    "description":"用于修复南开大学数学科学学院网站不能够复制文字以及右键菜单不可用的问题。",
+    "permissions": 
+    [
+        "http://sms.nankai.edu.cn/*",
+        "tabs"
+    ],
+    "content_scripts":
+    [
+        {
+            "matches":
+            [
+                "http://sms.nankai.edu.cn/*"
+            ],
+            "run_at":"document_start",
+            "js":
+            [
+                "js/content_script.js"
+            ]
+        }
+    ]
+}
