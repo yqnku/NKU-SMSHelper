@@ -1,5 +1,5 @@
 # NKU-SMSHelper
-解决了南开大学数学科学学院网站不允许复制，以及右键菜单无法弹出的问题
+解决了南开大学数学科学学院网站不允许复制，以及右键菜单无法弹出的问题，更改了主页中标题的长度
 
 # 安装
 1. [下载 Chrome 拓展](https://github.com/yqnku/NKU-SMSHelper/releases/download/V1.0/NKU-SMS-Helper.crx)
