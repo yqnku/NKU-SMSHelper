@@ -1,5 +1,5 @@
 ﻿//'use strict'
-var feedUrl = "http://www.quicy.cn/rss/nku_math/all.xml";
+var feedUrl = "https://www.quicy.cn/rss/nku_math/all.xml";
 var req;
 var maxFeedItems = 8;
 
